@@ -81,7 +81,7 @@ GameBoy::GameBoy(void) :
 	m_Emulator(NULL)
 {
 	m_Emulator = new Emulator( ) ;
-	m_Emulator->LoadRom("ROMS/SF.gb") ;
+	m_Emulator->LoadRom("ROMS/mk.gb") ;
 	m_Emulator->InitGame(DoRender) ;
 }
 
